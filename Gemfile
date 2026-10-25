@@ -18,12 +18,12 @@ gem 'jquery-rails', '~> 4.0'
 gem 'kaminari', '~> 1.1'
 gem 'kgio'
 gem 'memcachier'
-gem 'pg'
+gem "pg", "~> 1.5.0"
 gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '6.0.6.1'
+gem 'rails', '6.1.7.10'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
@@ -75,3 +75,4 @@ gem "jquery-ui-rails", "~> 6.0"
 gem "sprockets-rails", "~> 3.4.0"
 gem "globalid", "~> 1.1.0"
 gem "zeitwerk", "~> 2.6.0"
+gem "rake", ">= 12.2"
