@@ -23,7 +23,7 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '5.2.8.1'
+gem 'rails', '6.0.6.1'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
@@ -32,7 +32,7 @@ group :test, :development do
   gem 'bullet'
   gem 'factory_bot_rails'
   gem 'rspec-its'
-  gem 'rspec-rails', '~> 3.1'
+  gem "rspec-rails", "~> 4.0.0"
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
@@ -72,3 +72,6 @@ end
 gem "ffi", "~> 1.16.0"
 gem "thor", "~> 1.2.0"
 gem "jquery-ui-rails", "~> 6.0"
+gem "sprockets-rails", "~> 3.4.0"
+gem "globalid", "~> 1.1.0"
+gem "zeitwerk", "~> 2.6.0"
