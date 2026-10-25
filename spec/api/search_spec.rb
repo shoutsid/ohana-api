@@ -23,7 +23,7 @@ describe "GET 'search'" do
     end
 
     it 'is json' do
-      expect(response.content_type).to eq('application/json')
+      expect(response.media_type).to eq('application/json')
     end
 
     it 'returns locations' do
@@ -119,7 +119,7 @@ describe "GET 'search'" do
       end
 
       it 'is json' do
-        expect(response.content_type).to eq('application/json')
+        expect(response.media_type).to eq('application/json')
       end
 
       it 'includes an error description' do
