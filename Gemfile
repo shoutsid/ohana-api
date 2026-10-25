@@ -8,7 +8,7 @@ gem 'bootstrap-sass', '~> 3.4.0'
 gem 'coffee-rails', '~> 4.1'
 gem 'csv_shaper'
 gem 'dalli', '~> 2.7'
-gem 'devise', '~> 4.1'
+gem "devise", "~> 4.0"
 gem 'enumerize'
 gem 'figaro', '~> 1.0'
 gem 'friendly_id', '~> 5.0'
@@ -23,7 +23,7 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '~> 5.2'
+gem 'rails', '5.2.8.1'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
@@ -70,3 +70,5 @@ group :development do
   gem 'web-console'
 end
 gem "ffi", "~> 1.16.0"
+gem "thor", "~> 1.2.0"
+gem "jquery-ui-rails", "~> 6.0"
