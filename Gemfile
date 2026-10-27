@@ -23,7 +23,7 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '7.1.6'
+gem 'rails', '7.2.4'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
@@ -81,3 +81,4 @@ gem "logger", "~> 1.4"
 gem "database_cleaner-active_record", "~> 2.1"
 gem "minitest", "~> 5.25.0"
 gem "connection_pool", "~> 2.5"
+gem "sass", "~> 3.7"
