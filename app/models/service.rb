@@ -38,9 +38,9 @@ class Service < ApplicationRecord
   auto_strip_attributes :funding_sources, :keywords, :service_areas,
                         reject_blank: true, nullify: true, nullify_array: false
 
-  serialize :funding_sources, Array
-  serialize :keywords, Array
-  serialize :service_areas, Array
+  serialize :funding_sources, type: Array
+  serialize :keywords, type: Array
+  serialize :service_areas, type: Array
 
   extend Enumerize
   enumerize :status, in: %i[active defunct inactive]
