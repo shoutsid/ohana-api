@@ -25,7 +25,7 @@ describe 'Admin Home page' do
     it 'does not include a link to Your locations in the navigation' do
       within '.navbar' do
         expect(page).
-          not_to have_link I18n.t('admin.navigation.locations'), href: admin_locations_path
+          not_to have_link href: admin_locations_path
       end
     end
 

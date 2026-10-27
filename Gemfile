@@ -23,16 +23,16 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '7.0.10'
+gem 'rails', '7.1.6'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
 
 group :test, :development do
-  gem 'bullet'
+  gem "bullet", "~> 8.0"
   gem 'factory_bot_rails'
   gem 'rspec-its'
-  gem "rspec-rails", "~> 4.0.0"
+  gem "rspec-rails", "~> 6.1"
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
@@ -42,7 +42,7 @@ end
 
 group :test do
   gem 'capybara'
-  gem 'database_cleaner', '>= 1.0.0.RC1'
+  gem "database_cleaner", "~> 2.1"
   gem 'haml_lint'
   gem 'rails-controller-testing'
   gem "shoulda-matchers", "~> 4.1"
@@ -78,3 +78,6 @@ gem "globalid", "~> 1.1.0"
 gem "zeitwerk", "~> 2.6.0"
 gem "rake", ">= 12.2"
 gem "logger", "~> 1.4"
+gem "database_cleaner-active_record", "~> 2.1"
+gem "minitest", "~> 5.25.0"
+gem "connection_pool", "~> 2.5"
