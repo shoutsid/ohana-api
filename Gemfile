@@ -23,7 +23,7 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '6.1.7.10'
+gem 'rails', '7.0.10'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
@@ -61,7 +61,8 @@ group :development do
   gem 'letter_opener'
   gem 'rack-mini-profiler'
   gem 'reek'
-  gem 'spring'
+  gem 'spring', ">= 3.0.0"
+
   gem 'spring-commands-rspec'
   gem 'spring-watcher-listen'
   gem 'stackprof'
@@ -76,3 +77,4 @@ gem "sprockets-rails", "~> 3.4.0"
 gem "globalid", "~> 1.1.0"
 gem "zeitwerk", "~> 2.6.0"
 gem "rake", ">= 12.2"
+gem "logger", "~> 1.4"
