@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.5'
+ruby '>= 2.7.5'
 gem 'active_model_serializers', '~> 0.8.0'
 gem 'ancestry'
 gem 'auto_strip_attributes', '~> 2.0'
@@ -8,7 +8,7 @@ gem 'bootstrap-sass', '~> 3.4.0'
 gem 'coffee-rails', '~> 4.1'
 gem 'csv_shaper'
 gem 'dalli', '~> 2.7'
-gem 'devise', '~> 4.1'
+gem "devise", "~> 4.0"
 gem 'enumerize'
 gem 'figaro', '~> 1.0'
 gem 'friendly_id', '~> 5.0'
@@ -23,7 +23,7 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-cache'
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails', '~> 5.2'
+gem 'rails', '5.2.8.1'
 gem 'sassc-rails', '~> 2.1'
 gem 'select2-rails', '~> 3.5'
 gem 'uglifier', '>= 1.3.0'
@@ -45,7 +45,7 @@ group :test do
   gem 'database_cleaner', '>= 1.0.0.RC1'
   gem 'haml_lint'
   gem 'rails-controller-testing'
-  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git'
+  gem "shoulda-matchers", "~> 4.1"
   # Pin simplecov to 0.17.1 until this bug with Code Climate is fixed:
   # https://github.com/codeclimate/test-reporter/issues/413
   gem 'simplecov', '= 0.17.1', require: false
@@ -69,3 +69,6 @@ group :development do
   # anywhere in the code.
   gem 'web-console'
 end
+gem "ffi", "~> 1.16.0"
+gem "thor", "~> 1.2.0"
+gem "jquery-ui-rails", "~> 6.0"
