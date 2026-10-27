@@ -61,7 +61,8 @@ group :development do
   gem 'letter_opener'
   gem 'rack-mini-profiler'
   gem 'reek'
-  gem 'spring'
+  gem 'spring', ">= 3.0.0"
+
   gem 'spring-commands-rspec'
   gem 'spring-watcher-listen'
   gem 'stackprof'
