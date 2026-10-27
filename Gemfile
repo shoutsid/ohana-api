@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.5'
+ruby '>= 2.7.5'
 gem 'active_model_serializers', '~> 0.8.0'
 gem 'ancestry'
 gem 'auto_strip_attributes', '~> 2.0'
@@ -45,7 +45,7 @@ group :test do
   gem 'database_cleaner', '>= 1.0.0.RC1'
   gem 'haml_lint'
   gem 'rails-controller-testing'
-  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git'
+  gem "shoulda-matchers", "~> 4.1"
   # Pin simplecov to 0.17.1 until this bug with Code Climate is fixed:
   # https://github.com/codeclimate/test-reporter/issues/413
   gem 'simplecov', '= 0.17.1', require: false
@@ -69,3 +69,4 @@ group :development do
   # anywhere in the code.
   gem 'web-console'
 end
+gem "ffi", "~> 1.16.0"
